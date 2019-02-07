@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+body {
+  padding: 50px;
+  background: rgba(232, 236, 152, 1) url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-attachment: cover;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.app-county {
+  background-color: rgba(170, 224, 250, 0.6);
+  color: #1A183D;
+  max-width: 50%;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#search {
+  padding: 5px;
+  background-color: #FFF;
+  color: #1A183D;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  background-color: #1A183D;
+  color: #fff;
+}
+
+#countries {
+  color: #fff;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.map-world {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 50px;
+}
