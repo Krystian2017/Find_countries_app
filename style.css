@@ -9,7 +9,7 @@ body {
 }
 
 .app-county {
-  background-color: rgba(170, 224, 250, 0.6);
+  background-color: rgba(170, 224, 250, 0.8);
   color: #1A183D;
   max-width: 80%;
   padding: 20px;
@@ -48,6 +48,7 @@ input {
   margin: 0;
   color: #1A183D;
   border: 1px solid #000;
+  letter-spacing: 2px;
 }
 
 th, td {
@@ -56,6 +57,12 @@ th, td {
 }
 
 @media(max-width: 767px) {
+  body {
+    padding: 10px;
+  }
+  .app-county {
+    max-width: 100%;
+  }
   .info-countries {
     font-size: 12px;
   }
